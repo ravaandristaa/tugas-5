@@ -1,0 +1,364 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PetCare Shop</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- AOS Animation -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+<div class="container">
+
+<a class="navbar-brand fw-bold text-primary fs-3" href="#">
+🐾 PetCare
+</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto text-center">
+
+<li class="nav-item">
+<a class="nav-link fw-semibold" href="#home">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link fw-semibold" href="#about">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link fw-semibold" href="#produk">Produk</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link fw-semibold" href="#testi">Testimoni</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link fw-semibold" href="#kontak">Kontak</a>
+</li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home" data-aos="fade-up">
+<div class="container">
+<div class="row align-items-center g-4">
+
+<div class="col-md-6">
+<h1 class="fw-bold display-4 text-primary">
+🐶 PetCare Shop
+</h1>
+
+<h3 class="text-warning fw-bold">
+Sahabat Terbaik Untuk Hewan Kesayanganmu
+</h3>
+
+<p class="text-muted fs-5">
+Dapatkan makanan, mainan, dan perlengkapan hewan lucu
+dengan harga terbaik.
+</p>
+
+<a href="#produk" class="btn btn-warning btn-lg px-4 shadow">
+Belanja Sekarang
+</a>
+</div>
+
+<div class="col-md-6 text-center">
+<img src="kucing.jpg"
+class="img-fluid hero-img" width="350">
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- About -->
+<section class="py-5" id="about" data-aos="fade-right">
+<div class="container text-center">
+
+<h2 class="fw-bold mb-4">
+Tentang Brand Kami
+</h2>
+
+<p class="about-text mx-auto text-muted" style="max-width:700px;">
+PetCare adalah toko perlengkapan hewan yang menyediakan
+produk berkualitas, harga terjangkau, dan pelayanan terbaik
+untuk hewan kesayanganmu.
+</p>
+
+</div>
+</section>
+
+<!-- Produk -->
+<section class="py-5 bg-light" id="produk">
+<div class="container text-center">
+
+<h2 class="fw-bold mb-5" data-aos="zoom-in">
+Produk Unggulan 🐾
+</h2>
+
+<div class="row g-4">
+
+<!-- Produk 1 -->
+<div class="col-md-3" data-aos="flip-left" data-aos-delay="100">
+<div class="card product-card h-100 border-0 shadow">
+
+<img src="logo.jpg"
+class="card-img-top p-4">
+
+<div class="card-body">
+<h5 class="fw-bold">Makanan Kucing</h5>
+<p class="text-warning">⭐⭐⭐⭐⭐</p>
+<p class="text-success fw-bold fs-5">Rp50.000</p>
+<p class="small text-muted">Nutrisi lengkap untuk kucing sehat.</p>
+<span class="badge bg-danger mb-2">Promo</span>
+
+<a href="makanan-kucing.html"
+class="btn btn-primary w-100 mt-2">
+Lihat Produk
+</a>
+</div>
+</div>
+</div>
+
+<!-- Produk 2 -->
+<div class="col-md-3" data-aos="flip-left" data-aos-delay="200">
+<div class="card product-card h-100 border-0 shadow">
+
+<img src="mainan.jpg"
+class="card-img-top p-4">
+
+<div class="card-body">
+<h5 class="fw-bold">Mainan Anjing</h5>
+<p class="text-warning">⭐⭐⭐⭐⭐</p>
+<p class="text-success fw-bold fs-5">Rp35.000</p>
+<p class="small text-muted">Mainan seru agar anjing aktif.</p>
+<span class="badge bg-danger mb-2">Best Seller</span>
+
+<a href="mainan-anjing.html"
+class="btn btn-primary w-100 mt-2">
+Lihat Produk
+</a>
+</div>
+</div>
+</div>
+
+<!-- Produk 3 -->
+<div class="col-md-3" data-aos="flip-left" data-aos-delay="300">
+<div class="card product-card h-100 border-0 shadow">
+
+<img src="kalung.jpg"
+class="card-img-top p-4">
+
+<div class="card-body">
+<h5 class="fw-bold">Kalung Lucu</h5>
+<p class="text-warning">⭐⭐⭐⭐⭐</p>
+<p class="text-success fw-bold fs-5">Rp25.000</p>
+<p class="small text-muted">Kalung lucu dan nyaman dipakai.</p>
+<span class="badge bg-danger mb-2">Diskon 10%</span>
+
+<a href="kalung.html"
+class="btn btn-primary w-100 mt-2">
+Lihat Produk
+</a>
+</div>
+</div>
+</div>
+
+<!-- Produk 4 -->
+<div class="col-md-3" data-aos="flip-left" data-aos-delay="400">
+<div class="card product-card h-100 border-0 shadow">
+
+<img src="pasir.jpg"
+class="card-img-top p-4">
+
+<div class="card-body">
+<h5 class="fw-bold">Pasir Kucing</h5>
+<p class="text-warning">⭐⭐⭐⭐⭐</p>
+<p class="text-success fw-bold fs-5">Rp45.000</p>
+<p class="small text-muted">Pasir wangi dan mudah dibersihkan.</p>
+<span class="badge bg-danger mb-2">Promo</span>
+
+<a href="pasir-kucing.html"
+class="btn btn-primary w-100 mt-2">
+Lihat Produk
+</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Testimoni -->
+<section class="py-5 bg-light" id="testi">
+<div class="container text-center">
+
+<h2 class="fw-bold mb-2 text-primary" data-aos="fade-up">
+💬 Testimoni Pelanggan
+</h2>
+
+<p class="text-muted mb-5" data-aos="fade-up">
+Ribuan pelanggan puas telah berbelanja di PetCare Shop ⭐
+</p>
+
+<div class="row g-4">
+
+<!-- 1 -->
+<div class="col-md-4" data-aos="zoom-in">
+<div class="testi-box shadow p-4 rounded-4 bg-white h-100">
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" width="70" class="mb-3">
+<p class="text-warning fs-5">⭐⭐⭐⭐⭐</p>
+<p class="fst-italic">
+"Produk sangat lengkap dan harga terjangkau.
+Saya beli makanan kucing, kualitasnya bagus,
+kemasannya rapi, dan kucing saya langsung suka."
+</p>
+<h6 class="text-primary fw-bold mt-3">- Andi Saputra</h6>
+<small class="text-muted">Pelanggan Setia</small>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+<div class="testi-box shadow p-4 rounded-4 bg-white h-100">
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140051.png" width="70" class="mb-3">
+<p class="text-warning fs-5">⭐⭐⭐⭐⭐</p>
+<p class="fst-italic">
+"Pelayanan sangat ramah dan pengiriman cepat.
+Saya beli pasir kucing, wanginya enak,
+mudah dibersihkan, dan tidak berdebu."
+</p>
+<h6 class="text-primary fw-bold mt-3">- Sinta Maharani</h6>
+<small class="text-muted">Pembeli Online</small>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+<div class="testi-box shadow p-4 rounded-4 bg-white h-100">
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" width="70" class="mb-3">
+<p class="text-warning fs-5">⭐⭐⭐⭐⭐</p>
+<p class="fst-italic">
+"Mainan anjing yang saya beli sangat bagus.
+Bahannya kuat dan aman.
+Anjing saya jadi aktif bermain setiap hari."
+</p>
+<h6 class="text-primary fw-bold mt-3">- Riko Pratama</h6>
+<small class="text-muted">Pelanggan Baru</small>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="col-md-4" data-aos="zoom-in">
+<div class="testi-box shadow p-4 rounded-4 bg-white h-100">
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140061.png" width="70" class="mb-3">
+<p class="text-warning fs-5">⭐⭐⭐⭐⭐</p>
+<p class="fst-italic">
+"Kalung hewan lucu banget dan nyaman dipakai.
+Ukuran pas, bahan lembut,
+dan desainnya sangat menarik."
+</p>
+<h6 class="text-primary fw-bold mt-3">- Nabila Putri</h6>
+<small class="text-muted">Pelanggan Tetap</small>
+</div>
+</div>
+
+<!-- 5 -->
+<div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+<div class="testi-box shadow p-4 rounded-4 bg-white h-100">
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140047.png" width="70" class="mb-3">
+<p class="text-warning fs-5">⭐⭐⭐⭐⭐</p>
+<p class="fst-italic">
+"Saya sudah dua kali belanja di sini.
+Produk selalu bagus, harga murah,
+dan admin cepat membalas chat."
+</p>
+<h6 class="text-primary fw-bold mt-3">- Fajar Ramadhan</h6>
+<small class="text-muted">Pembeli Online</small>
+</div>
+</div>
+
+<!-- 6 -->
+<div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+<div class="testi-box shadow p-4 rounded-4 bg-white h-100">
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140077.png" width="70" class="mb-3">
+<p class="text-warning fs-5">⭐⭐⭐⭐⭐</p>
+<p class="fst-italic">
+"Toko favorit saya untuk kebutuhan hewan.
+Pilihan produknya banyak,
+dan kualitas semuanya memuaskan."
+</p>
+<h6 class="text-primary fw-bold mt-3">- Dimas Prakoso</h6>
+<small class="text-muted">Pelanggan Loyal</small>
+</div>
+</div>
+
+</div>
+
+<!-- Bawah -->
+<div class="mt-5" data-aos="fade-up">
+<h4 class="fw-bold text-success">
+⭐ Sudah 1.000+ Pelanggan Puas Berbelanja di PetCare Shop
+</h4>
+
+<p class="text-muted">
+Terima kasih telah mempercayakan kebutuhan hewan kesayanganmu kepada kami.
+Kami akan selalu memberikan produk terbaik dan pelayanan terbaik.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- Footer -->
+<footer id="kontak" class="bg-primary text-white py-5">
+<div class="container text-center">
+
+<h4 class="fw-bold">🐾 PetCare Shop</h4>
+
+<p>📍 Jl. Mawar No.12 Semarang</p>
+<p>📞 0812-3456-7890</p>
+<p>📷 Instagram: @petcare</p>
+
+<hr class="bg-white">
+
+<p class="mb-0">© 2026 PetCare Shop</p>
+
+</div>
+</footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration: 1200,
+once: false
+});
+</script>
+
+</body>
+</html>
